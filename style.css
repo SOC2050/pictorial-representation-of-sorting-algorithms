@@ -1,0 +1,118 @@
+body {
+ //  background: RGB(136, 8, 8);
+
+  background: #ccffec;
+    color: red;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/*css for 3D animation in pages*/
+.BgImages {
+
+    border: none;
+    background: #ccffec;
+    width: 1000px;
+    height: 500px;
+    margin: 20px auto;
+}
+
+
+/* css for pages titles */
+
+.doc-title {
+    
+    padding: 30px 0px 0px 30px;
+    margin: 10px auto 15px;
+    //background: red;
+    text-align: center;
+    font-size: 40px;
+
+    text-shadow: 3px 7px 10px rgba(0, 0, 0, 0.9);
+
+
+}
+
+
+
+
+.btn-container {
+
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px ;
+}
+
+.c-btn {
+
+
+    height: 35px;
+    width: 15vw;
+    padding: 1px 1px;
+    margin: 2px auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: #91adf2;
+    font-size: 15px;
+}
+
+button:hover {
+
+    background: white;
+}
+
+
+
+
+
+
+.details-text {
+
+    padding: 20px;
+  //  background: #ccffec;
+  background: RGB(136, 8, 8);
+
+
+}
+
+
+
+
+
+
+/* CSS for mobile display*/
+
+@media(max-height :708px) and (max-width: 360px) {
+
+    .BgImages {
+
+        width: 330px;
+        height: 200px;
+
+    }
+
+
+
+    .c-btn {
+        width: 30vw;
+        font-size: 8px;
+
+    }
+
+
+
+
+    .details-text {
+
+        padding: 15px;
+
+    }
+
+
+
+
+
+}
