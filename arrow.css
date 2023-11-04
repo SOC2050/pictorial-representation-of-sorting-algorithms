@@ -1,0 +1,59 @@
+body {
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* about arrow which would point on specific box */
+
+.arrow-Surface {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    // background: #d8eb34;
+    height: 100%;
+    align-self: flex-end;
+    z-index: 1;
+
+
+}
+
+.arrow {
+
+    height: 6vh;
+    //background: #34ebe1;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.a-text {
+    //background: #d534eb;
+    width: 100%;
+
+
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: auto;
+    flex: 1;
+}
+
+.a {
+    // background: #fae75a;
+    height: 100%;
+}
+
+
+@media (max-height: 708px) and (max-width: 360px) {
+
+    .arrow {
+        height: 6vh;
+    }
+
+    .a-text {
+
+        font-size: 0.1em;
+    }
+}
