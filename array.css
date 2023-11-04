@@ -1,0 +1,249 @@
+* {
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.container {
+
+    background: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#start {
+
+    height: 40px;
+    width: 200px;
+  
+}
+
+.c {
+
+    width: 85vw;
+    margin: 0px auto 20px;
+    padding: 20px 10px;
+}
+
+   
+#sort-container {
+
+    background: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  width: 90vw;
+  margin: 0px auto;
+}
+
+/* Array surface where array would be drawn */
+
+.main-surface {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /*height: 27vh;*/
+    width: 100%;
+    padding: 2px 2px 50px;
+    margin: 50px auto 100px;
+    border: 1px solid black;
+}
+
+.dec {
+
+   display: flex;
+   
+  justify-content: center ;
+   align-items: center ;
+    text-align: center;
+    color: black;
+    background: #6a9bfc;
+    font-size: 20px;
+    height: 100%;
+   width: 100%;
+    //height: 2vh;
+}
+
+.surface {
+    position: relative;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    /*margin-left: 20vw;*/
+    // background: lightblue;
+
+    margin: 0px auto;
+    align-items: flex-end;
+}
+
+.arrow-surface {
+
+    height: 8vh;
+    padding: 0px 0px;
+    //background: #6a9bfc;
+
+}
+
+.array-surface {
+
+    padding: 0px 0px;
+    height: 5.4vh;
+
+}
+
+.comp-surface {
+
+    padding: 0px 0px;
+    height: 10vh;
+    //background: lightblue ;
+
+    align-items: flex-start;
+}
+
+
+/* about box placement,size , and all*/
+
+
+.box {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    margin: 0px 0px 0px 5px;
+
+}
+
+
+
+/* about box index and box contains placement */
+
+.index {
+
+    width: 25%;
+    height: 25%;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    /* background: red;*/
+
+    margin-left: 2%;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.b-contain {
+
+
+    height: 75%;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 2px solid #000;
+
+    background: pink;
+    margin: 2px auto;
+}
+
+/* about box index and box contains fonts */
+
+.box-index {
+
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box-value {
+
+    color: black;
+    font-size: 2.8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+/* media query for mobile display dimension is  708x360 */
+
+@media (max-height: 708px) and (max-width: 360px) {
+
+
+    .main-surface {
+
+        // height: 24vh;
+        padding: 2px 2px 20px;
+        margin: 50px auto 50px;
+    }
+
+
+    .dec {
+
+        font-size: 8px;
+    }
+
+    .surface {
+
+        height: 8vh;
+        width: 100%;
+
+
+    }
+
+
+    .array-surface {
+
+
+        height: 5.4vh;
+    }
+
+    .box {
+
+        margin-left: 2px;
+
+    }
+
+
+
+
+    .index {
+
+        margin-top: 1px;
+    }
+
+    .b-contain {
+
+        width: 94%;
+
+        border-radius: 5px;
+        border: 1px solid #000;
+        margin: 1px auto;
+    }
+
+    /* about box index and box contains fonts */
+
+    .box-index {
+
+        font-size: 0.5em;
+    }
+
+    .box-value {
+        font-size: 1em;
+
+    }
+
+
+}
